@@ -10,7 +10,7 @@ This project enables Arduino devices to connect to Wi-Fi networks that require c
 - **Stable Connection**: Ensures a stable connection for Arduino-based IoT applications like data collection, monitoring, and more.
 
 ## Requirements
-- Arduino board (with Wi-Fi capability, such as ESP8266 or ESP32)
+- Arduino board (with Wi-Fi capability, such as ESP8266 or ESP32 or arduino nano 33 IOT ...)
 - Access to a Wi-Fi network with captive portal authentication (e.g., campus or enterprise network)
 - Arduino IDE installed on your computer
 
