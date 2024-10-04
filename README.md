@@ -1,10 +1,7 @@
-# arduino-wifi-captive-portal-auth
-This project connects Arduino devices to Wi-Fi networks requiring captive portal authentication. It automates login using user ID and password, allowing seamless connection in networks like campuses. Ideal for IoT applications needing continuous connectivity, such as monitoring systems and data collection.
+# Arduino Wi-Fi Captive Portal Authentication
 
+This project enables Arduino devices to connect to Wi-Fi networks that require captive portal authentication (such as campus networks). By automating the login process using user credentials (user ID and password), this solution allows for seamless connectivity in environments requiring login-based access. It's particularly suited for IoT applications that need continuous connectivity, such as monitoring systems and data collection.
 
-# Arduino Wi-Fi Connection via Captive Portal Authentication
-
-This repository provides a solution to connect Arduino devices to Wi-Fi networks that require captive portal authentication (e.g., campus networks) by passing user credentials such as a user ID and password. With this project, your Arduino can seamlessly authenticate and access the network, allowing for uninterrupted operation in environments requiring login-based access.
 
 ## Features
 - **Automatic Authentication**: The code automates the process of logging into Wi-Fi networks that use captive portals.
