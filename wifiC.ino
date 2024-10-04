@@ -2,16 +2,18 @@
 #include <WiFiClient.h>
 #include <ArduinoHttpClient.h>
 
-char ssid[] = "NITK-NET";   // Wi-Fi SSID
-char pass[] = "2K16NITK";   // Wi-Fi passkey
+char ssid[] = "SSID";   // Wi-Fi SSID/NAME
+char pass[] = "passkey";   // Wi-Fi passkey
+String userId = "User ID";              // User ID
+String userPass = "password"      // User password
+
+
 int status = WL_IDLE_STATUS;
 
 // Captive portal details
 char server[] = "10.10.54.4";  // Captive portal IP address
 int port = 8090;               // Captive portal port
 String loginPage = "/httpclient.html";  // Login endpoint
-String userId = "2320410";              // User ID
-String userPass = "Iamatnitk@345";      // User password
 
 WiFiClient wifiClient;
 HttpClient httpClient = HttpClient(wifiClient, server, port);
