@@ -11,8 +11,8 @@ String userPass = "password"      // User password
 int status = WL_IDLE_STATUS;
 
 // Captive portal details
-char server[] = "10.10.54.4";  // Captive portal IP address
-int port = 8090;               // Captive portal port
+char server[] = "0.0.0.0";  // Captive portal IP address change it according to yours
+int port = 8090;               // Captive portal port change it according to yours
 String loginPage = "/httpclient.html";  // Login endpoint
 
 WiFiClient wifiClient;
